@@ -1,0 +1,23 @@
+Routing
+
+Routing Convention
+    1. all routes must live inside the app folder
+    2. route files must be named either page.js or page.tsx
+    3. each folder represents a segment of the url path
+
+    when these convestions are followed, the file automatically becomes available as route
+
+    eg 1. when user visits localhost:3000, home page is visible
+
+
+when we try to run the above scenario, layout.tsx is automatically created. next.js creates it when you first time access the route. this file is automatically created in the background.
+
+    eg 2. localhost:3000/about and localhost:3000/profile
+
+    create folder inside app folder: about
+    page.tsx inside the about. thats all
+
+
+    eg 3. localhost:3000/blog/first and localhost:3000/blog/second
+
+    
